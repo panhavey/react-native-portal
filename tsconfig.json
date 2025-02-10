@@ -2,15 +2,18 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@gorhom/portal": ["./src"]
+      "@gorhom/portal": [
+        "./src"
+      ]
     },
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,
     "esModuleInterop": true,
-    "importsNotUsedAsValues": "error",
     "forceConsistentCasingInFileNames": true,
     "jsx": "react",
-    "lib": ["esnext"],
+    "lib": [
+      "esnext"
+    ],
     "module": "esnext",
     "moduleResolution": "node",
     "noFallthroughCasesInSwitch": true,
@@ -24,6 +27,10 @@
     "strict": true,
     "target": "esnext"
   },
-  "exclude": ["example"],
-  "include": ["src"]
+  "exclude": [
+    "example"
+  ],
+  "include": [
+    "src"
+  ]
 }
