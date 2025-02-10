@@ -27,6 +27,7 @@
   },
   "homepage": "https://github.com/gorhom/react-native-portal#readme",
   "scripts": {
+    "prepare": "yarn build",
     "test": "jest",
     "typescript": "tsc --noEmit",
     "lint": "eslint \"**/*.{js,ts,tsx}\"",
